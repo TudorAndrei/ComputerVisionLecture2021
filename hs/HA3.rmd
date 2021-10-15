@@ -1,0 +1,54 @@
+---
+title: "Home Assignment 3"
+author:
+ - "Tudor Andrei Dumitrascu"
+ - "2682776"
+geometry: margin=2cm
+documentclass: article
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fontsize: 12pt
+output:
+ pdf_document:
+  latex_engine: xelatex
+---
+
+# 19
+
+Linear regression is used when predicting a real value based on the following mathematical formula:
+
+$$ y = \beta + \alpha_1 * x_1 + \alpha_2 * x_2 + ...$$
+
+The performance of this mathematical model is evaluated using an error metric such as Mean Squared Error. Then the goal is to minimize this error.
+
+Logistic regression is used in binary classification tasks. When the goal is to predict if the input belongs to one of two classes.
+
+In this case, the error metric is the Binary Cross Entropy. The performance is calculated using the confusion matrix and all the metrics that can be deducted from it (e.g. Precision, Recall, F1-Score, Accuracy)
+
+# 20
+
+Classification is the supervised learning task where the goal is to predict a class.(e.g. given an image of an animal, assign one of the following classes: dog, cat, horse)
+
+Regression is the supervised learning task where the goal is to predict a real number. (e.g. given these information about this house, predict its price)
+
+# 21
+
+Under-fitting occurs when the model is unable to properly learn from the train data. Therefore, we get a high loss or a low accuracy.
+
+# 22
+
+- 1st hidden layer $16 * 16 * 128 = 32768$
+- 2nd hidden layer $128 * 32 = 4296$
+- 3rd hidden layer $32 * 16 = 512$
+- output layer $16 * 10 = 160$
+
+- total $37.536$
+
+
+# 23
+
+- 1st hidden layer $64 * 64 * 3 * 128 = 1.572.864 $
+- 2nd hidden layer $128 * 64 = 8192$
+- output layer $64 * 20 = 1280$
+
+- total $1.582.336$
+
